@@ -46,7 +46,7 @@ const revealItems = document.querySelectorAll(".reveal");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const canHover = window.matchMedia("(hover: hover)").matches;
 const tiltScenes = document.querySelectorAll(
-  ".hero-panel-screen, .demo-canvas, .concept-mini"
+  ".demo-canvas, .concept-mini"
 );
 
 revealItems.forEach((item) => {
