@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Physics-Aware AI Product Design Studio</title>
+    <meta
+      name="description"
+      content="제품 콘셉트의 안정성, 제조 가능성, 시장성을 분석하는 AI 디자인 도구 소개 웹사이트"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- 상단 헤더: 너무 튀지 않게 얇고 단정하게 배치합니다. -->
+    <header class="site-header">
+      <a class="brand" href="#top">Physics-Aware AI</a>
+
+      <nav class="site-nav" aria-label="섹션 바로가기">
+        <a href="#feature">Feature</a>
+        <a href="#product">Product</a>
+        <a href="#demo">Demo</a>
+        <a href="#comparison">Comparison</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- Hero section: 가장 큰 문장과 핵심 메시지를 보여줍니다. -->
+      <section class="section hero hero-dark">
+        <div class="section-inner hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Physics-Aware AI Product Design Studio</p>
+            <h1 class="title">Design that understands physics.</h1>
+            <p class="hero-subtitle subtitle">
+              아름다운 디자인을 넘어, 실제로 만들 수 있는 제품을 설계합니다.
+            </p>
+
+            <div class="hero-actions">
+              <button class="button button-light" type="button" data-scroll-target="product">
+                서비스 보기
+              </button>
+              <button class="button button-dark" type="button" data-scroll-target="demo">
+                데모 보기
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" data-delay="0.12">
+            <div class="hero-panel">
+              <div class="hero-panel-top">
+                <span>Concept Review</span>
+                <span>AI Analysis</span>
+              </div>
+
+              <div class="hero-panel-screen">
+                <div class="hero-product-meta">
+                  <p>Concept A / Lighting Objects</p>
+                  <strong>Linear Light Stand</strong>
+                </div>
+
+                <!-- 사용자가 보낸 스탠드 이미지를 Hero 카드 안에 배치합니다. -->
+                <div class="hero-reference-media" aria-hidden="true">
+                  <img
+                    class="hero-reference-image"
+                    src="./assets/hero-linear-light-portrait.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="hero-callout hero-callout-left">
+                  <span>Optics</span>
+                  <strong>Wide, even task light</strong>
+                </div>
+
+                <div class="hero-callout hero-callout-right">
+                  <span>Material</span>
+                  <strong>Anodized aluminum + steel</strong>
+                </div>
+
+                <div class="hero-callout hero-callout-bottom">
+                  <span>Assembly</span>
+                  <strong>Light bar + bent stem</strong>
+                </div>
+
+                <div class="hero-dock">
+                  <div class="hero-dock-item">
+                    <span>Power</span>
+                    <strong>12 W LED</strong>
+                  </div>
+                  <div class="hero-dock-item">
+                    <span>Tooling</span>
+                    <strong>CNC bend ready</strong>
+                  </div>
+                </div>
+
+                <div class="hero-lines" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="hero-panel-bottom">
+                <div>
+                  <small>Stability</small>
+                  <strong>82</strong>
+                </div>
+                <div>
+                  <small>Manufacturability</small>
+                  <strong>76</strong>
+                </div>
+                <div>
+                  <small>Market Fit</small>
+                  <strong>88</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature section: 문제를 짧고 강하게 설명합니다. -->
+      <section class="section section-light" id="feature">
+        <div class="section-inner narrow center reveal">
+          <p class="eyebrow">Feature</p>
+          <h2>Pretty is not enough.</h2>
+          <p class="section-description description">
+            예쁜 이미지를 만드는 것만으로는 실제 제품 개발에 충분하지 않습니다.
+            이 앱은 제품이 안정적인지, 제조 가능한지, 시장에서 통할 수 있는지까지
+            함께 분석합니다.
+          </p>
+        </div>
+      </section>
+
+      <!-- Product section: 핵심 기능 3가지를 복잡한 카드 대신 깔끔하게 나열합니다. -->
+      <section class="section section-soft" id="product">
+        <div class="section-inner">
+          <div class="section-header reveal">
+            <p class="eyebrow">Product</p>
+            <h2>Built for real product decisions.</h2>
+          </div>
+
+          <div class="feature-list-block">
+            <article class="feature-row reveal">
+              <div class="feature-index">01</div>
+              <div class="feature-content">
+                <h3>Stability</h3>
+                <p>
+                  제품의 구조, 무게중심, 사용 상황을 기준으로 실제로 안정적인지
+                  분석합니다.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-row reveal" data-delay="0.08">
+              <div class="feature-index">02</div>
+              <div class="feature-content">
+                <h3>Manufacturability</h3>
+                <p>
+                  생산 공정, 조립 난이도, 부품 구성까지 고려해 제조 가능성을
+                  평가합니다.
+                </p>
+              </div>
+            </article>
+
+            <article class="feature-row reveal" data-delay="0.16">
+              <div class="feature-index">03</div>
+              <div class="feature-content">
+                <h3>Market Fit</h3>
+                <p>
+                  사용자 맥락과 가격 포지셔닝을 바탕으로 시장성이 있는 콘셉트인지
+                  판단합니다.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Target Users section: 제품 발표 페이지처럼 큰 제목과 넓은 카드로 구성합니다. -->
+      <section class="section target-users-section" id="users">
+        <div class="section-inner target-users-inner">
+          <div class="target-users-head center reveal">
+            <p class="eyebrow">Target Users</p>
+            <h2>Built for those who design reality.</h2>
+            <p class="section-description description">
+              아이디어를 실제 제품으로 만드는 사람들을 위해 설계되었습니다.
+            </p>
+          </div>
+
+          <div class="target-users-grid">
+            <article class="target-user-card reveal">
+              <span class="target-user-index">01</span>
+              <h3>Hardware Startups</h3>
+              <p>
+                제품 아이디어를 빠르게 검증하고 실패 비용을 줄여야 하는 팀
+              </p>
+            </article>
+
+            <article class="target-user-card reveal" data-delay="0.08">
+              <span class="target-user-index">02</span>
+              <h3>Industrial Designers</h3>
+              <p>
+                아름다움과 실제 제작 가능성을 동시에 고민하는 디자이너
+              </p>
+            </article>
+
+            <article class="target-user-card reveal" data-delay="0.16">
+              <span class="target-user-index">03</span>
+              <h3>Product Engineers</h3>
+              <p>
+                구조, 재료, 제조 공정까지 고려하는 엔지니어
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Consumer Preference Analysis: 시장에서 더 경쟁력 있는 콘셉트를 추천하는 흐름을 보여줍니다. -->
+      <section class="section consumer-section" id="consumer-analysis">
+        <div class="section-inner consumer-inner">
+          <div class="consumer-head center reveal">
+            <p class="eyebrow">Consumer Preference Analysis</p>
+            <h2>Designed to win the market.</h2>
+            <p class="section-description description">
+              목표 소비자의 취향과 시장 반응을 함께 분석해, 가장 경쟁력 있는 의자
+              콘셉트를 추천합니다.
+            </p>
+          </div>
+
+          <!-- 사용자가 보낸 시안 이미지를 그대로 보여주는 보드입니다. -->
+          <figure class="consumer-reference-frame reveal" data-delay="0.08">
+            <img
+              class="consumer-reference-image"
+              src="./assets/consumer-reference-chair-board.png"
+              alt="의자 디자인 후보를 비교하고 추천 결과를 보여주는 시안 보드"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- Demo section: 발표 페이지처럼 큰 mockup 화면을 보여줍니다. -->
+      <section class="section demo demo-dark" id="demo">
+        <div class="section-inner">
+          <div class="section-header center reveal">
+            <p class="eyebrow">Demo</p>
+            <h2>One screen. More confidence.</h2>
+            <p class="section-description description">
+              AI가 단순한 이미지 생성이 아니라, 제품 콘셉트의 현실성을 함께 읽는
+              장면을 하나의 큰 화면으로 보여줍니다.
+            </p>
+          </div>
+
+          <div class="demo-frame reveal" data-delay="0.1">
+            <div class="demo-frame-top">
+              <span>Physics-Aware Analysis</span>
+              <span>Compact Camera / Concept B</span>
+            </div>
+
+            <div class="demo-canvas">
+              <!-- Demo 화면에는 카메라 콘셉트 이미지를 배경으로 사용합니다. -->
+              <div class="demo-reference-media" aria-hidden="true">
+                <img
+                  class="demo-reference-image"
+                  src="./assets/demo-camera-concept.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="demo-overlay-grid">
+                <div class="demo-copy">
+                  <p>AI Camera Review</p>
+                  <h3>Refined form. Evaluated for real production.</h3>
+                </div>
+
+                <aside class="demo-sidecard">
+                  <p>Evaluation Notes</p>
+
+                  <div class="demo-note-list">
+                    <div class="demo-note">
+                      <span>Lens Module</span>
+                      <strong>front ring tolerance controlled</strong>
+                    </div>
+                    <div class="demo-note">
+                      <span>Assembly</span>
+                      <strong>lens unit + shell 4-step</strong>
+                    </div>
+                    <div class="demo-note">
+                      <span>Target Price</span>
+                      <strong>$229 - $279</strong>
+                    </div>
+                  </div>
+
+                  <div class="demo-bar-stack">
+                    <div class="demo-bar-row">
+                      <span>Optical packaging</span>
+                      <div class="demo-bar-track">
+                        <span class="demo-bar-fill" style="--bar-width: 82%"></span>
+                      </div>
+                    </div>
+                    <div class="demo-bar-row">
+                      <span>Manufacturing ease</span>
+                      <div class="demo-bar-track">
+                        <span class="demo-bar-fill" style="--bar-width: 76%"></span>
+                      </div>
+                    </div>
+                    <div class="demo-bar-row">
+                      <span>Market appeal</span>
+                      <div class="demo-bar-track">
+                        <span class="demo-bar-fill" style="--bar-width: 88%"></span>
+                      </div>
+                    </div>
+                  </div>
+                </aside>
+              </div>
+
+              <div class="demo-hotspot demo-hotspot-top">
+                <span>Lens Ring</span>
+                <strong>precision-fit front assembly</strong>
+              </div>
+
+              <div class="demo-hotspot demo-hotspot-right">
+                <span>Body Shell</span>
+                <strong>soft radius improves grip feel</strong>
+              </div>
+
+              <div class="demo-hotspot demo-hotspot-bottom">
+                <span>Control Dial</span>
+                <strong>machined crown, low part count</strong>
+              </div>
+            </div>
+
+            <div class="score-grid">
+              <div class="score-item">
+                <span>Stability</span>
+                <strong>82</strong>
+              </div>
+              <div class="score-item">
+                <span>Manufacturability</span>
+                <strong>76</strong>
+              </div>
+              <div class="score-item">
+                <span>Market Fit</span>
+                <strong>88</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comparison section: 일반 도구와의 차이를 단정하게 비교합니다. -->
+      <section class="section section-light" id="comparison">
+        <div class="section-inner">
+          <div class="section-header reveal">
+            <p class="eyebrow">Comparison</p>
+            <h2>More than image generation.</h2>
+          </div>
+
+          <div class="comparison-grid">
+            <article class="comparison-column reveal">
+              <p class="comparison-label">일반 AI 디자인 도구</p>
+              <ul>
+                <li>주로 보기 좋은 이미지 생성에 집중</li>
+                <li>구조 안정성 판단이 부족함</li>
+                <li>제조 공정과 시장성 검토가 약함</li>
+              </ul>
+            </article>
+
+            <article class="comparison-column comparison-highlight reveal" data-delay="0.08">
+              <p class="comparison-label">Physics-Aware AI Product Design Studio</p>
+              <ul>
+                <li>디자인과 현실 가능성을 함께 분석</li>
+                <li>안정성, 제조 가능성, 시장성을 모두 검토</li>
+                <li>더 설득력 있는 제품 의사결정을 지원</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final section: 발표의 마지막 문장처럼 간결하게 마무리합니다. -->
+      <section class="section final-section final-dark">
+        <div class="section-inner narrow center reveal">
+          <p class="eyebrow">Final</p>
+          <h2>From concept to confidence.</h2>
+          <p class="section-description description">
+            AI로 더 현실적인 제품 디자인을 시작하세요.
+          </p>
+          <button class="button button-light" type="button" data-scroll-target="top">
+            맨 위로 돌아가기
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
